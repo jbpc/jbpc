@@ -3,10 +3,10 @@ import BaseHTTPServer
 class RequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     Page = '''
 <html>
-    <head><title>   Black Site  </title></head>
-    <body bgcolor="white"><font size = "3" color=black><pre>
+<head><title>   Black Site  </title></head>
+<body bgcolor="white"><font size = "3" color=black><pre>
 Hi
-    </pre></font></body>
+</pre></font></body>
 </html>
 '''
     def do_GET(self):
